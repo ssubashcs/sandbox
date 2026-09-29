@@ -2,6 +2,11 @@ internal class Program
 {
     private static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        Display("Hello, World!");
+    }
+
+    void Display(string message)
+    {
+        Console.WriteLine(message);
     }
 }
